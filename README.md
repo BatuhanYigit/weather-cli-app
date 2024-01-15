@@ -40,6 +40,7 @@ go build -o weather
 weather [City Name]
 ```
 ##Example Output
+
 The application provides current weather information for the specified city and forecasts for the upcoming hours.
 
 Ankara, Turkey: 15°C, Partly cloudy
