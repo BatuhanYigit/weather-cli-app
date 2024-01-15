@@ -41,7 +41,7 @@ func main() {
 	if len(os.Args) >= 2 {
 		q = os.Args[1]
 	}
-	res, err := http.Get("http://api.weatherapi.com/v1/forecast.json?key=a7bf715a8d8f401f9fe123814241501&q=" + q + "&days=1&aqi=no&alerts=no")
+	res, err := http.Get("http://api.weatherapi.com/v1/forecast.json?key=a7bf715a8d8f401f9fe123814241501&q=" + q + "&days=1&aqi=no&alerts=no&lang=tr")
 
 	if err != nil {
 		panic(err)
