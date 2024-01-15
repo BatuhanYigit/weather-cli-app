@@ -22,7 +22,7 @@ By default, weather information is fetched for the city "Ankara," but you can sp
 1. Clone this project:
 
 ```bash
-git clone [project_url]
+git clone https://github.com/BatuhanYigit/weather-cli-app
 ```
 2. Navigate to the project directory:
 ```bash
