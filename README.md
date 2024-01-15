@@ -14,11 +14,11 @@ weather [City Name]
 
 By default, weather information is fetched for the city "Ankara," but you can specify a different city name if desired.
 
-##Dependencies
+## Dependencies
 1. This application uses the following dependencies:
  github.com/fatih/color: Used for colorful text output.
 
-#Installation
+# Installation
 1. Clone this project:
 
 ```bash
@@ -39,12 +39,13 @@ go build -o weather
 ```bash
 weather [City Name]
 ```
-##Example Output
+## Example Output
 
 The application provides current weather information for the specified city and forecasts for the upcoming hours.
-
+```markdown
 Ankara, Turkey: 15°C, Partly cloudy
 10:00 - 17°C, 10%, Clear
 11:00 - 19°C, 5%, Partly cloudy
 12:00 - 22°C, 0%, Sunny
+```
 
